@@ -7,14 +7,15 @@ Utilizando o dataset de matérias-primas agrículas, Verificar as variaçoes de 
 <h1><b> Perguntas do Problema </b></h1>
 
 1) Descubra a variação normal do preço de cada matéria-prima;
-
+  R: Podemos observar que a maioria das matérias-primas tem % de mudança frequente ideal inferior a 5%.
 2) Encontre a matéria-prima que tem o menor preço ao longo dos anos;
-
+  R: algodão é matéria-prima de menor preço nos últimos anos.
 3) Qual matéria-prima tem a maior e menor variação de % de preço?
-
+  R: Podemos ver a maior % de mudança em mais de 60 para madeira serrada macia e a menor % de mudança é para madeira compensada em menos de 20%.
 4) Encontre as matérias-primas com mudança drástica de preço;
-
+  R: A mudança de preço é drástica para o preço de tora dura entre materiais de baixa faixa de preço e entre materiais de alto preço, são os preços de lã fina.
 5) Descobrir a faixa de preço de matérias-primas de baixo preço;
+  R: Inclui: O intervalo interquartil está entre Q3 e Q1 mínimo, primeiro quartil (Q1), mediana, terceiro quartil (Q3) e máximo e outliers.
 <h1><b> Tipo de Problema </b></h1>
 
 Este é um problema de classificação supervisionada.
@@ -156,3 +157,11 @@ Os dados são provenientes do Indexmundi, disponibilazado no Kaggle.
     <td>float64</td>
     <td>% (percentual)</td>
   </tr>
+##Conclusão
+Descobrimos as matérias-primas de alta e baixa gama de acordo com seus preços.
+
+Alta e baixa % de variação dos materiais.
+
+Pudemos identificar a variação de preços ao longo dos anos.
+
+Correlação entre eles usando um mapa de calor.
