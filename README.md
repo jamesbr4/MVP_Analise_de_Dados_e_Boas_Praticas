@@ -157,6 +157,7 @@ Os dados são provenientes do Indexmundi, disponibilazado no Kaggle.
     <td>float64</td>
     <td>% (percentual)</td>
   </tr>
+</table>
 <h1>Conclusão</h1>
 Descobrimos as matérias-primas de alta e baixa gama de acordo com seus preços.
 
