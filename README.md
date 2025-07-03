@@ -7,16 +7,19 @@ Utilizando o dataset de matérias-primas agrículas, Verificar as variaçoes de 
 <h1><b> Perguntas do Problema </b></h1>
 
 1) Descubra a variação normal do preço de cada matéria-prima;
-  <br>R: Podemos observar que a maioria das matérias-primas tem % de mudança frequente ideal inferior a 5%, significando que, para a maioria dos materiais, os picos dos histogramas estão localizados nos intervalos de variação percentual abaixo de 5%. Isso sugere que a variação mensal mais comum para essas matérias-primas é relativamente baixa.
+  <br>R: Podemos observar que a maioria das matérias-primas tem % de mudança frequente ideal inferior a 5%, significando que, para a maioria dos materiais, os picos dos histogramas estão localizados nos intervalos de variação percentual abaixo de 5%. Isso sugere que a variação mensal mais comum para essas matérias-primas é relativamente baixa.<br>
 2) Encontre a matéria-prima que tem o menor preço ao longo dos anos;
-  <br>R: O algodão é matéria-prima de menor preço nos últimos anos.
+  <br>R: O algodão é matéria-prima de menor preço nos últimos anos.<br>
 3) Qual matéria-prima tem a maior e menor variação de % de preço?
   <br>R: Podemos ver na linha 'max' que a 'Preço da madeira serrada macia % Variação' tem o maior valor (65.24), o que confirma a observação de que ela teve os picos de variação mais altos. O desvio padrão para 'Preço da madeira serrada macia % Variação' (5.77) também é um dos mais altos, indicando alta volatilidade.<br>
-Olhando para a linha 'max', a 'Preço da madeira compensada % Variação' tem um valor máximo relativamente baixo (19.50), e seu desvio padrão (2.66) também é um dos menores, confirmando a observação de que ela teve menor variação.
+Olhando para a linha 'max', a 'Preço da madeira compensada % Variação' tem um valor máximo relativamente baixo (19.50), e seu desvio padrão (2.66) também é um dos menores, confirmando a observação de que ela teve menor variação.<br>
 4) Encontre as matérias-primas com mudança drástica de preço;
-  <br>R: A mudança de preço é drástica para o preço de tora dura entre materiais de baixa faixa de preço e entre materiais de alto preço, são os preços de lã fina.
+  <br>R: A mudança de preço é drástica para o preço de tora dura entre materiais de baixa faixa de preço e entre materiais de alto preço, são os preços de lã fina.<br>
 5) Descobrir a faixa de preço de matérias-primas de baixo preço;
-  <br>R: O intervalo interquartil está entre Q3 e Q1 mínimo, primeiro quartil (Q1), mediana, terceiro quartil (Q3) e máximo e outliers" descreve corretamente os componentes de um box plot, que são exatamente o que usamos para entender a faixa de preço de cada matéria-prima neste caso.
+  <br>R: Preço do algodão apresenta a faixa de preço mais baixa entre este grupo.<br>
+5) Descobrir a faixa de preço de matérias-primas de alto preço;
+  <br>R: Preço de lã fina apresenta a faixa de preço mais elevada entre este grupo.<br>
+
 <h1><b> Tipo de Problema </b></h1>
 
 Este é um problema de classificação supervisionada.
