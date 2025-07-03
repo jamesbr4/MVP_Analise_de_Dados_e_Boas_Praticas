@@ -2,7 +2,7 @@
 Projeto MVP do MBA Ciência de Dados e Analytics PUC-Rio
 
 <h1><b> Descrição do Problema </b></h1>
-
+O desafio principal apresentado por este dataset de preços de matérias-primas agrícolas reside em sua natureza de série temporal volátil e heterogênea, com preços e variações em escalas diversas, que necessitam de pré-processamento rigoroso para permitir análises e modelagem preditiva confiáveis das dinâmicas de mercado e identificação de períodos de alta flutuação.
 Utilizando o dataset de matérias-primas agrículas, Verificar as variaçoes de preços ao longo do tempo.
 <h1><b> Perguntas do Problema </b></h1>
 
@@ -17,7 +17,7 @@ Olhando para a linha 'max', a 'Preço da madeira compensada % Variação' tem um
   <br>R: A mudança de preço é drástica para o preço de tora dura entre materiais de baixa faixa de preço e entre materiais de alto preço, são os preços de lã fina.<br>
 5) Descobrir a faixa de preço de matérias-primas de baixo preço;
   <br>R: Preço do algodão apresenta a faixa de preço mais baixa entre este grupo.<br>
-5) Descobrir a faixa de preço de matérias-primas de alto preço;
+6) Descobrir a faixa de preço de matérias-primas de alto preço;
   <br>R: Preço de lã fina apresenta a faixa de preço mais elevada entre este grupo.<br>
 
 <h1><b> Tipo de Problema </b></h1>
