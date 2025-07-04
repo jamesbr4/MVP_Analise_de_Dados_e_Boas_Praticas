@@ -3,7 +3,7 @@ Projeto MVP do MBA Ciência de Dados e Analytics PUC-Rio
 
 <h1><b> Descrição do Problema </b></h1>
 O desafio principal apresentado por este dataset de preços de matérias-primas agrícolas reside em sua natureza de série temporal volátil e heterogênea, com preços e variações em escalas diversas, que necessitam de pré-processamento rigoroso para permitir análises e modelagem preditiva confiáveis das dinâmicas de mercado e identificação de períodos de alta flutuação.
-Utilizando o dataset de matérias-primas agrículas, Verificar as variaçoes de preços ao longo do tempo.
+Utilizando o dataset de matérias-primas agrículas, verificar as variaçoes de preços ao longo do tempo.
 <h1><b> Perguntas do Problema </b></h1>
 
 1) Descubra a variação normal do preço de cada matéria-prima;
